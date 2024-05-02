@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../assets/fonts/sf-pro-display-font/sf-pro-text-light.ttf');
+}
+
+:root{
+    --primeira-cor: #fdfeff;
+    --segunda-cor: #d9e6f7;
+    --terceira-cor: #ed2590;
+    --quarta-cor01: #eff3f8;
+    --quarta-cor02: #4b4b4b;
+    --quinta-cor: #b4aeae;
+}
+
+body{
+    background-color: var(--segunda-cor);
+}
+
+
+.container-grid{
+    margin-left: 120px;
+    margin-right: 120px;
+    
+    
+}
+
+
+
+header{
+    margin-bottom: 50px;
+    background-color: var(--primeira-cor);
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+}
+
+.sectionHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orkutHeader{
+    width: 110px;
+    height: 30px;
+}
+
+.linksHeader{
+    width: 380px;
+}
+
+.linksHeader>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.linksHeader>ul>li{
+    cursor: pointer;
+}
+
+li:hover{
+    color: var(--terceira-cor);
+    font-weight: 600;
+}
+
+input{
+    color: var(--quinta-cor);
+    width: 300px;
+    height: 32px;
+    padding: 8px;
+    padding-left: 35px;
+    border: none;
+    outline: none;
+    background: url('/assets/icons/lupa.png')no-repeat left;
+    background-size: 20px;
+    background-position-x: 10PX;
+    border-radius: 5px;
+    background-color: var(--quarta-cor01);
+}
+
+.boxPerfil{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sectionPerfil{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+.divPerfil{
+    display: flex;
+    gap: 20px;
+    background-color: var(--primeira-cor);
+    width: 280px;
+    height: 324px;
+    padding: 40px;
+    border-radius: 15px;
+    flex-direction: column;   
+    align-items: center;
+    text-align: center;
+ 
+}
+
+.imgPerfil{
+    padding: 2px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid var(--terceira-cor);
+}
+
+.editarPerfil{
+    width: 280px;
+    height: 56px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--primeira-cor);
+    color: var(--terceira-cor);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mainSection{
+    display: flex;
+    gap: 20px;
+    background-color: var(--primeira-cor);
+    width: 592px;
+    height: 854px;
+    padding: 15px;
+    border-radius: 15px;
+    flex-direction: column;   
+    align-items: flex-start;
+    text-align: center;
+}
+
+.divReactions{
+    display: flex;
+    gap: 20px;
+}
+
+.boxText{
+    text-align: left;
+    line-height: 40px;
+    color: var(--quinta-cor);
+    font-weight: 500;
+}
+
+.boxText>p>span{
+    color: var(--quarta-cor02);
+}
+
+
+.mainBox{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.programarCafe{
+    background-color: var(--quarta-cor01);
+    border-radius: 15px;
+    padding: 15px;
+    width: 400px;
+}
+
+
+.cardsSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: var(--primeira-cor);
+    border-radius: 15px;
+    width: 280px;
+    height: 411px;
+}
+
+.cardsInfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight:600;
+}
+
+.cardsInfo>p{
+    color: var(--terceira-cor);
+}
+
+.cardsBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.user{
+    width: 56px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user>p{
+    font-size: 12px;
+}
+
